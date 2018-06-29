@@ -1,0 +1,375 @@
+
+@media ( min-width: 993px) and (max-width: 1200px) {
+	.Container {
+		width: 950px;
+	}	
+	.Section_cover {
+		background-size: 50%;
+	}	
+}
+@media ( min-width: 769px) and (max-width: 992px) {
+	.Container {
+		width: 750px;
+	}
+	.Section {
+		padding: 40px 0;
+	}
+	.Grid_little {
+		padding: 0 60px;
+	}
+	.Section_header {
+		padding: 10px 0;
+	}
+	.Section_cover {
+		background-position: right center;
+    	background-size: 45%;
+    	padding-top: 160px;
+	}
+	.Nav {
+		margin-top: 85px;
+	}	
+	.Cover__title {
+		width: 55%;
+	}
+	.Section_item {
+		background: url(img/Item__bac.png) no-repeat left center;
+		background-size: 40%;
+		background-color: #000000;
+		padding: 0;
+	}	
+	.Grid__item_quarter {
+		width: 100%;
+	}
+	.Grid__item_adaptiv{
+		text-align: right;
+	}
+	.Item {
+    	padding: 40px 0;
+	}
+	.Item__indicator::before {
+		right: 200px;
+	}
+	.Slider {
+		padding-bottom: 20px;
+	}
+	.Slider__info {
+		margin-top: 20px;
+		width: 100%;
+	}
+	.Button_supplement {
+		font-size: 14px;
+	}
+	.Grid__item_tablet40 {
+		width: 40%;
+	}
+	.Grid__item_tablet60 {
+		width: 60%;
+	}
+	.Contact__form {
+		width: 70%;
+	}
+	.AskForm__subject_margin90 {
+		margin-top: 40px;
+	}
+}
+@media screen and (max-width: 768px) {
+	.Container {
+		width: 100%;
+	}	
+	.Section {
+		padding: 30px 0;
+	}
+	.Grid_little {
+		padding: 0 40px;
+	}
+	.Section_header {
+		padding: 10px 0;
+	}
+	.Header__Logo {
+		margin-left: 20px;
+	}
+	.Header__logoIcon {
+		width: 70px;
+	}
+	.Section_cover {
+		background: 0;
+		padding-top: 100px
+	}
+	.Section_cover,
+	.Title__left {
+		text-align: center;
+	}
+	.Cover__title {
+		margin: 20px auto;
+		width: 90%;
+	}
+	.Button_watch {
+		display: block;
+		padding-right: 0;
+		margin: 0 auto;
+	}
+	.Section_item {
+		background: #000000;
+	}
+	.Item {
+		padding: 0;
+	}
+	.Grid__item_adaptiv {
+		text-align: center;
+		width: 100%;
+	}
+	.Item__indicator {
+		padding-left: 0;
+		margin-top: 30px;
+	}
+	.Item__indicator_first {
+		margin-top: 0;
+	}
+	.Item__indicator::before {
+		height: 150px;
+	}
+	.Item__indicator::after {
+		background: #18a3dd;
+		content: '';
+		display: inline-block;
+		height: 150px;
+		left: 100%;
+		position: absolute;
+		top: 50%;
+		transform: translateY(-25px);
+		width: 5px;
+	}
+	.FeauresBox__Heading_padLeft::AFTER,
+	.FeauresBox__Heading_padRight::BEFORE {
+		background-color: #18a3dd;
+		content: '';
+		display: inline-block;
+		height: 35px;
+		position: absolute;
+		top: 0;
+		width: 5px;
+	} 
+	.FeauresBox__Heading_padLeft::AFTER {
+		right: 0;
+	}
+	.FeauresBox__Heading_padRight::BEFORE {
+		left: 0;
+	}
+	.FeauresBox__Heading_padRight,
+	.FeauresBox__Heading_padLeft {
+		padding: 0;
+	}
+	.Features__pic {
+    	width: 50%;
+	}
+	.FeauresBox {
+		margin-top: 20px;
+	}
+	.FeauresBox__description {
+		margin: 5px 0;
+	}
+	.Testimonials__blockquote {
+		margin-top: 20px;
+	}
+	.Grid__item_Adaptiv100 {
+		margin-top: 20px;
+		width: 100%;
+	}
+	.Table__caption {
+		font-size: 20px;
+	}
+	.Table__num_captionT {
+		font-size: 12px;
+	}
+	.Button_supplement {
+		font-size: 12px;
+		padding: 20px;
+	}
+	.More {
+		text-align: center;
+	}
+	.Button__size {
+		right: 20px;
+	}
+	.Grid__item_adaptivThird {
+		width: 33.33%;
+	}
+	.Grid__item_mobile100 {
+		text-align: center;
+		width: 100%;
+	}
+	.Grid__item_mobile100Left {
+		text-align: left;
+	}
+	.Buy__heading::after {
+		background-color: #18a3dd;
+		content: '';
+		display: inline-block;
+		height: 60px;
+		left: 0;
+		position: absolute;
+		top: 0;
+		width: 6px;
+	}
+	.Contact__form {
+		width: 80%;
+	}
+	.AskForm__subject_margin90 {
+		margin-top: 40px;
+	}
+	.More__weight::after {
+	    background-color: #18a3dd;
+	    content: '';
+	    display: inline-block;
+	    height: 50px;
+	    right: 0;
+	    position: absolute;
+	    top: -150%;
+	    width: 2px;
+	}
+	.Subform__mail {
+		width: auto;
+	}
+	.Subscribe___heading {
+		line-height: 40px;
+	}
+	.Social {
+		margin-top: 30px;
+	}
+	.Footer__copyright {
+		font-size: 26px;
+	}
+	.Link_LH16 {
+		font-size: 20px;
+	}
+	.Slider {
+		padding-bottom: 0;
+	}
+	.Slider__miniPhoto {
+		margin-right: 0;
+		margin-bottom: -75px;
+	}
+	.Slider__photo {
+		z-index: 10;
+	}
+	.Slider__info {
+		margin-top: 20px;
+	}
+}
+@media screen and (max-width: 480px) {
+	.Section {
+		padding: 15px 0;
+	}
+	.Section_header {
+		padding: 5px 0;
+	}
+	.Section_cover {
+		padding-top: 90px;
+	}
+	.Cover__Heading_big {
+    	font-size: 45px;
+    }
+    .Cover__headingLine::before {
+    	top: -50px;
+    }
+    .Heading {
+    	display: block;
+    }
+    .Nav {
+    	margin-top: 60px;
+    }
+    .Certifications__title {
+    	margin: 0;
+    }
+	.Header__logoIcon {
+		width: 40px;
+	}
+    .Heading_leftLine {
+    	padding-left: 0;
+    }
+    .Heading_leftLine::before {
+    	display: none;
+    }
+    .Features__title {
+    	margin-bottom: 40px;
+    }
+    .Testimonials__description {
+    	width: 90%;
+    }
+    .Grid_little {
+    	padding: 0 20px;
+    }
+    .More__name,
+    .More__weight {
+    	padding-left: 0;
+    }
+    .More__description {
+    	margin-top: 0;
+    }
+    .Table__caption {
+    	padding: 0 0 30px 0;
+    	margin: 0;
+    }
+    .Grid__item_adaptivThird {
+    	padding: 40px;
+    	width: 100%;
+    }
+    .Buy__heading {
+    	margin-top: 20px;
+    }
+    .Buy__heading, .Buy__price {
+    	padding-left: 0;
+    }
+    .Buy__heading::after {
+	    background-color: #18a3dd;
+	    content: '';
+	    display: inline-block;
+	    height: 60px;
+	    left: 100%;
+	    position: absolute;
+	    top: 0;
+	    width: 6px;
+	}
+	.Subform__mail,
+	.Button_SubForm {
+		border-radius: 22px;
+		width: 100%;
+	}
+	.Button_SubForm {
+		margin-top: 10px;
+	}
+	.Contact__title {
+		margin: 5px 0;
+	}
+	.AskForm__name,
+	.AskForm__email {
+		width: 100%;
+	}
+	.AskForm__email {
+		margin-left: 0;
+	}
+	.Button_askForm {
+		width: 100%;
+	}
+	.Footer__copyright {
+    	font-size: 18px;
+	}
+	.Link_LH16 {
+		font-size: 14px;
+	}
+	.Footer__Line {
+		width: 100%;
+	}
+	.Footer__link,
+	.Footer__link_first,
+	.Footer__link_last {
+		border-left: 0;
+		border-bottom: 1px solid #a0a2a3;
+		padding: 15px 0;
+		margin: 0;
+		width: 100%;
+	}
+	.Footer__link_last {
+		border-bottom: 0;
+	}
+}
