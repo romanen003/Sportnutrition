@@ -122,6 +122,7 @@
 .Button:hover,
 .Button:focus {
 	background-color: transparent;
+	color: #18a3dd;
 }
 .Link {
 	font-size: 14px;
@@ -131,7 +132,7 @@
 	text-decoration: none;
 }
 .Link:hover {
-	color: red;
+	color: #18a3dd;
 }
 /*==================================================
 					Header
@@ -196,7 +197,7 @@
 	display: inline-block;
 	margin-top: 90px;
 	position: fixed;
-	right: -370px;
+	right: -670px;
 	text-align: center;
 	top: 0px;
 	width: 320px;
@@ -287,7 +288,7 @@
 ==================================================*/
 
 .Section_item {
-	background: url(img/Item__bac.png) no-repeat left,
+	background: url(img/Item__bac.png) no-repeat -50px,
 	            linear-gradient(to bottom, #fff 0%, #fff 23%, #000 23%, #000 90%, #fff 90%);
 	padding: 120px 0 50px 0;
 }

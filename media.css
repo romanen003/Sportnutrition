@@ -17,6 +17,18 @@
 	.Grid_little {
 		padding: 0 60px;
 	}
+	.Grid__item_quarter {
+		width: 100%;
+	}
+	.Grid__item_tabletRight{
+		text-align: right;
+	}
+	.Grid__item_tablet40 {
+		width: 40%;
+	}
+	.Grid__item_tablet60 {
+		width: 60%;
+	}
 	.Section_header {
 		padding: 10px 0;
 	}
@@ -37,12 +49,6 @@
 		background-color: #000000;
 		padding: 0;
 	}	
-	.Grid__item_quarter {
-		width: 100%;
-	}
-	.Grid__item_adaptiv{
-		text-align: right;
-	}
 	.Item {
     	padding: 40px 0;
 	}
@@ -58,12 +64,6 @@
 	}
 	.Button_supplement {
 		font-size: 14px;
-	}
-	.Grid__item_tablet40 {
-		width: 40%;
-	}
-	.Grid__item_tablet60 {
-		width: 60%;
 	}
 	.Contact__form {
 		width: 70%;
@@ -82,6 +82,19 @@
 	.Grid_little {
 		padding: 0 40px;
 	}
+	.Grid__item_mobileThird {
+		width: 33.33%;
+	}
+	.Grid__item_mobile100 {
+		text-align: center;
+		width: 100%;
+	}
+	.Grid__item_mobile100Left {
+		text-align: left;
+	}
+	.Grid__item_marginTop {
+		margin-top: 20px;
+	}
 	.Section_header {
 		padding: 10px 0;
 	}
@@ -90,6 +103,9 @@
 	}
 	.Header__logoIcon {
 		width: 70px;
+	}
+	.Nav {
+		width: 100%;
 	}
 	.Section_cover {
 		background: 0;
@@ -113,10 +129,6 @@
 	}
 	.Item {
 		padding: 0;
-	}
-	.Grid__item_adaptiv {
-		text-align: center;
-		width: 100%;
 	}
 	.Item__indicator {
 		padding-left: 0;
@@ -171,10 +183,6 @@
 	.Testimonials__blockquote {
 		margin-top: 20px;
 	}
-	.Grid__item_Adaptiv100 {
-		margin-top: 20px;
-		width: 100%;
-	}
 	.Table__caption {
 		font-size: 20px;
 	}
@@ -190,16 +198,6 @@
 	}
 	.Button__size {
 		right: 20px;
-	}
-	.Grid__item_adaptivThird {
-		width: 33.33%;
-	}
-	.Grid__item_mobile100 {
-		text-align: center;
-		width: 100%;
-	}
-	.Grid__item_mobile100Left {
-		text-align: left;
 	}
 	.Buy__heading::after {
 		background-color: #18a3dd;
@@ -246,8 +244,7 @@
 		padding-bottom: 0;
 	}
 	.Slider__miniPhoto {
-		margin-right: 0;
-		margin-bottom: -75px;
+		margin-right: -100px;
 	}
 	.Slider__photo {
 		z-index: 10;
@@ -260,20 +257,27 @@
 	.Section {
 		padding: 15px 0;
 	}
+    .Heading {
+    	display: block;
+    }
 	.Section_header {
 		padding: 5px 0;
 	}
 	.Section_cover {
 		padding-top: 90px;
 	}
+    .Grid_little {
+    	padding: 0 20px;
+    }
+    .Grid__item_adaptivThird {
+    	padding: 40px;
+    	width: 100%;
+    }
 	.Cover__Heading_big {
     	font-size: 45px;
     }
     .Cover__headingLine::before {
     	top: -50px;
-    }
-    .Heading {
-    	display: block;
     }
     .Nav {
     	margin-top: 60px;
@@ -296,9 +300,6 @@
     .Testimonials__description {
     	width: 90%;
     }
-    .Grid_little {
-    	padding: 0 20px;
-    }
     .More__name,
     .More__weight {
     	padding-left: 0;
@@ -309,10 +310,6 @@
     .Table__caption {
     	padding: 0 0 30px 0;
     	margin: 0;
-    }
-    .Grid__item_adaptivThird {
-    	padding: 40px;
-    	width: 100%;
     }
     .Buy__heading {
     	margin-top: 20px;
