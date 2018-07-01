@@ -119,6 +119,9 @@
 		margin: 20px auto;
 		width: 90%;
 	}
+	.Item__indicator {
+		font-size: 50px;
+	}
 	.Button_watch {
 		display: block;
 		padding-right: 0;
@@ -186,6 +189,10 @@
 	.Table__caption {
 		font-size: 20px;
 	}
+	.Table__caption,
+	.Table__row {
+		text-align: left;
+	}
 	.Table__num_captionT {
 		font-size: 12px;
 	}
@@ -198,6 +205,9 @@
 	}
 	.Button__size {
 		right: 20px;
+	}
+	.Certifications__img {
+		width: 60%;
 	}
 	.Buy__heading::after {
 		background-color: #18a3dd;
@@ -253,12 +263,39 @@
 		margin-top: 20px;
 	}
 }
+@media (min-width: 560px) and (max-width: 655px) {
+	.Slider__photo {
+		width: 250px;
+	}
+	.Slider__miniPhoto {
+		width: 200px;
+	}
+	.Slider__info {
+		display: block;
+	}
+}
+@media (min-width: 481px) and (max-width: 559px) {
+	.Slider__miniPhoto {
+		margin-bottom: -40px;
+		margin-right: 0;
+		width: 250px;
+	}
+	.Slider__photo {
+		width: 300px;
+	}
+	.Slider__about {
+		padding-left: 0;
+	}
+}
 @media screen and (max-width: 480px) {
 	.Section {
 		padding: 15px 0;
 	}
     .Heading {
     	display: block;
+    }
+    .Title {
+    	font-size: 14px;
     }
 	.Section_header {
 		padding: 5px 0;
@@ -279,6 +316,9 @@
     .Cover__headingLine::before {
     	top: -50px;
     }
+    .Menu__burger {
+    	right: 20px;
+    }
     .Nav {
     	margin-top: 60px;
     }
@@ -286,9 +326,10 @@
     	margin: 0;
     }
 	.Header__logoIcon {
-		width: 40px;
+		width: 35px;
 	}
     .Heading_leftLine {
+    	font-size: 24px;
     	padding-left: 0;
     }
     .Heading_leftLine::before {
@@ -298,6 +339,7 @@
     	margin-bottom: 40px;
     }
     .Testimonials__description {
+    	font-size: 14px;
     	width: 90%;
     }
     .More__name,
@@ -368,5 +410,16 @@
 	}
 	.Footer__link_last {
 		border-bottom: 0;
+	}
+	.Slider__miniPhoto {
+		margin-bottom: -30px;
+		margin-right: 0;
+		width: 55%;
+	}
+	.Slider__photo {
+		width: 65%;
+	}
+	.Slider__about {
+		padding-left: 0;
 	}
 }
